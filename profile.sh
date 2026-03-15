@@ -1,9 +1,9 @@
 #!/bin/bash
-# Usage: ./profile.sh course2/vec_add.cu
+# Usage: ./profile.sh matmul/matmul.cu
 
 if [ -z "$1" ]; then
     echo "Usage: ./profile.sh <path/to/file.cu>"
-    echo "Example: ./profile.sh course2/vec_add.cu"
+    echo "Example: ./profile.sh matmul/matmul.cu"
     exit 1
 fi
 

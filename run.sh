@@ -1,9 +1,9 @@
 #!/bin/bash
-# Usage: ./run.sh course1/hello_world.cu
+# Usage: ./run.sh matmul/matmul.cu
 
 if [ -z "$1" ]; then
     echo "Usage: ./run.sh <path/to/file.cu>"
-    echo "Example: ./run.sh course1/hello_world.cu"
+    echo "Example: ./run.sh matmul/matmul.cu"
     exit 1
 fi
 
